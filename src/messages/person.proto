@@ -1,0 +1,5 @@
+// message of Person type with only required field
+
+message Person {
+  required string name = 1;
+}
