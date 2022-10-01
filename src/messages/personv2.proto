@@ -7,9 +7,11 @@ File with number 2 will be saved next and so on. That give us better control  ov
 laid out in memory.
  */
 
+syntax = "proto2";
+
 package protobuf;
 
-option java_package = "com.example.protobuf";
+option java_package = "org.example.protobuf";
 option java_outer_classname = "AddressBookProtos";
 
 message Person {
