@@ -5,7 +5,6 @@
 all fields are indexed: the field with number 1 will save as first field in a binary file,
 File with number 2 will be saved next and so on. That give us better control  over how fields are
 laid out in memory.
-
  */
 
 package protobuf;
